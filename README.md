@@ -1,7 +1,5 @@
 # Puppeteer Cluster with Fingerprints
-
-This is a "template" repo that you can use to run multiple instances with unique fingerprints with the [puppeteer-with-fingerprints](https://github.com/CheshireCaat/puppeteer-with-fingerprints) library in conjunction with [puppeteer-cluster](https://github.com/thomasdondorf/puppeteer-cluster).
-For more details, check out their repositories, and most importantly, support them.
+This is a "template" repository that you can use to run multiple instances with unique fingerprints using the [puppeteer-with-fingerprints](https://github.com/CheshireCaat/puppeteer-with-fingerprints) library in conjunction with [puppeteer-cluster](https://github.com/thomasdondorf/puppeteer-cluster). For more details, check out their repositories, and most importantly, support them.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 # Puppeteer Cluster with Fingerprints
 
-This project demonstrates how to use the [puppeteer-with-fingerprints](https://github.com/CheshireCaat/puppeteer-with-fingerprints) library in conjunction with [puppeteer-cluster](https://github.com/thomasdondorf/puppeteer-cluster) to run multiple instances with unique fingerprints.
+This is a "template" repo that you can use to run multiple instances with unique fingerprints with the [puppeteer-with-fingerprints](https://github.com/CheshireCaat/puppeteer-with-fingerprints) library in conjunction with [puppeteer-cluster](https://github.com/thomasdondorf/puppeteer-cluster).
 
 ## Installation
 
@@ -57,6 +57,10 @@ const { Cluster } = require('puppeteer-cluster');
     await cluster.close();
 })();
 ```
+
+## WARNING
+
+This project relies on the 'puppeteer-with-fingerprints' and 'puppeteer-cluster' libraries, which in turn depend on [Puppeteer Framework](https://github.com/puppeteer/puppeteer). As Puppeteer is constantly being updated, there may be issues with regressions and compatibility. It is recommended to frequently check for updates and test your implementation to ensure continued functionality.
 
 ## License
 
